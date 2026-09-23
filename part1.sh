@@ -1,6 +1,3 @@
-#!/bin/bash
-# Вариант 15. Часть 1: создание дерева и установка прав
-
 cd ~/lab0
 
 mkdir -p claude_monet/kitchen/hot_station
@@ -95,5 +92,3 @@ chmod 640 claude_monet/office/vika_summary
 chmod 750 claude_monet/locker_room
 chmod u=rw,g=r,o= claude_monet/locker_room/max_note
 chmod 644 claude_monet/locker_room/leva_note
-
-ls -lR ~/lab0
